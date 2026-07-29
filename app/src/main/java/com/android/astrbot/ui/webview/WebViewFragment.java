@@ -1,4 +1,4 @@
-package com.astrbot.app.ui.webview;
+package com.android.astrbot.ui.webview;
 import android.net.Uri;
 import com.android.astrbot.R;
 
@@ -14,6 +14,7 @@ import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
+import android.webkit.WebSettings;
 import android.webkit.WebViewClient;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -22,7 +23,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.astrbot.app.R;
 
 public class WebViewFragment extends Fragment {
 
@@ -51,7 +51,7 @@ public class WebViewFragment extends Fragment {
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setDomStorageEnabled(true);
         webView.getSettings().setMixedContentMode(
-                android.webkit.WebSettings.LOAD_ALLOW_EMBEDDED
+                WebSettings.MIXED_CONTENT_ALWAYS_ALLOW
         );
         webView.getSettings().setUserAgentString(
                 "Mozilla/5.0 AstrBot/1.0");

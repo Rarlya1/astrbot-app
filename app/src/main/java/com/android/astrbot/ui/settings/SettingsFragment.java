@@ -1,4 +1,4 @@
-package com.astrbot.app.ui.settings;
+package com.android.astrbot.ui.settings;
 import com.android.astrbot.R;
 
 import android.content.Intent;
@@ -14,8 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.astrbot.app.R;
-import com.astrbot.app.service.AstrBotForegroundService;
+import com.android.astrbot.service.AstrBotForegroundService;
 import com.google.android.material.textfield.TextInputEditText;
 
 public class SettingsFragment extends Fragment {

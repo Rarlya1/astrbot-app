@@ -1,4 +1,4 @@
-package com.astrbot.app.ui.terminal;
+package com.android.astrbot.ui.terminal;
 import com.android.astrbot.R;
 
 import android.os.Bundle;
@@ -15,7 +15,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.astrbot.app.R;
 
 public class TerminalTabView extends Fragment {
 

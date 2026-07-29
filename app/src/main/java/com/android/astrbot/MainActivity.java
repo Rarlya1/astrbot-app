@@ -1,4 +1,4 @@
-package com.astrbot.app;
+package com.android.astrbot;
 import com.android.astrbot.R;
 
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.astrbot.app.util;
+package com.android.astrbot.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;

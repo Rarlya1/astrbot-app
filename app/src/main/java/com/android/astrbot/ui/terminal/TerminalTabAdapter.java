@@ -1,4 +1,4 @@
-package com.astrbot.app.ui.terminal;
+package com.android.astrbot.ui.terminal;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

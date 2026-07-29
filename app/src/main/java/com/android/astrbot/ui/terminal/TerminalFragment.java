@@ -1,4 +1,4 @@
-package com.astrbot.app.ui.terminal;
+package com.android.astrbot.ui.terminal;
 import com.android.astrbot.R;
 
 import android.content.Context;
@@ -18,7 +18,6 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.astrbot.app.R;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -89,7 +88,7 @@ public class TerminalFragment extends Fragment {
                 extractUbuntuImage(ctx, ubuntuDir);
             }
 
-            String nativeLibDir = ctx.getApplicationInfo().nativeLibDir;
+            String nativeLibDir = ctx.getNativeLibraryDir();
 
             // Busybox path
             String busybox = nativeLibDir + "/libbusybox.so";
@@ -194,7 +193,7 @@ public class TerminalFragment extends Fragment {
             is.close();
 
             // Extract with busybox tar
-            String nativeLibDir = ctx.getApplicationInfo().nativeLibDir;
+            String nativeLibDir = ctx.getNativeLibraryDir();
             Process extract = Runtime.getRuntime().exec(new String[]{
                     nativeLibDir + "/libbusybox.so", "tar", "-xJf",
                     tmp.getAbsolutePath(), "-C", targetDir.getAbsolutePath()

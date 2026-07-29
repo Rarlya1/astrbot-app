@@ -1,4 +1,4 @@
-package com.astrbot.app.service;
+package com.android.astrbot.service;
 import com.android.astrbot.R;
 
 import android.app.Notification;
@@ -12,7 +12,6 @@ import android.os.IBinder;
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
-import com.astrbot.app.R;
 
 public class AstrBotForegroundService extends Service {
 

@@ -1,4 +1,4 @@
-package com.astrbot.app.config;
+package com.android.astrbot.config;
 
 public class AppConfig {
     public static final String DEFAULT_SERVER_URL = "http://localhost:6189";
