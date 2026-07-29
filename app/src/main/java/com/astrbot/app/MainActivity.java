@@ -1,4 +1,5 @@
 package com.astrbot.app;
+import com.android.astrbot.R;
 
 import android.os.Bundle;
 import androidx.annotation.NonNull;

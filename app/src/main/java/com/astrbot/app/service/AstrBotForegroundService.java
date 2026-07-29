@@ -1,4 +1,5 @@
 package com.astrbot.app.service;
+import com.android.astrbot.R;
 
 import android.app.Notification;
 import android.app.NotificationChannel;

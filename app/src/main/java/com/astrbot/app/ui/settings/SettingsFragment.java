@@ -1,4 +1,5 @@
 package com.astrbot.app.ui.settings;
+import com.android.astrbot.R;
 
 import android.content.Intent;
 import android.content.SharedPreferences;

@@ -1,4 +1,6 @@
 package com.astrbot.app.ui.webview;
+import android.net.Uri;
+import com.android.astrbot.R;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

@@ -1,4 +1,5 @@
 package com.astrbot.app.ui.terminal;
+import com.android.astrbot.R;
 
 import android.content.Context;
 import android.os.Bundle;

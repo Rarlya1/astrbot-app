@@ -1,4 +1,5 @@
 package com.astrbot.app.ui.terminal;
+import com.android.astrbot.R;
 
 import android.os.Bundle;
 import android.text.SpannableString;
