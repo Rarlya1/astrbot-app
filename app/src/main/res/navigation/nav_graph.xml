@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/terminal_fragment">
+
+    <fragment
+        android:id="@+id/terminal_fragment"
+        android:name="com.astrbot.app.ui.terminal.TerminalFragment"
+        android:label="@string/nav_terminal"
+        app:contentLayout="@layout/fragment_terminal" />
+
+    <fragment
+        android:id="@+id/webview_fragment"
+        android:name="com.astrbot.app.ui.webview.WebViewFragment"
+        android:label="@string/nav_webview"
+        app:contentLayout="@layout/fragment_webview" />
+
+    <fragment
+        android:id="@+id/settings_fragment"
+        android:name="com.astrbot.app.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings"
+        app:contentLayout="@layout/fragment_settings" />
+
+</navigation>
